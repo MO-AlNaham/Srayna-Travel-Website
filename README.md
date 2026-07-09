@@ -88,8 +88,7 @@ Optimized for:
 # 🌐 Live Demo
 
 🔗 **Website Link**
-
-https://mohammed123-collage.github.io/Srayna-Travel-Website/
+ https://mohammed123-collage.github.io/Srayna-Travel-Website/
 
 ---
 # 🚀 Getting Started
