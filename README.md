@@ -80,7 +80,7 @@ The website has been optimized for:
 
 # 📸 Website Preview
 
-![Srayna Travel Website](images/preview.png)
+![Srayna Travel Website](images/Preview.png)
 ```
 
 After uploading images:
