@@ -1,0 +1,1273 @@
+*{
+  
+    margin: 0;
+    padding: 0;
+
+   
+  scroll-behavior: smooth;
+   box-sizing: border-box;
+}
+body{
+   
+   background-color:#F8FAFC;
+    font-size: 1.2rem;
+    font-family: "Cairo", sans-serif;
+      direction: rtl;
+   
+
+}
+
+#header{
+   
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+padding:12px 40px;
+gap:40px;
+position:sticky;
+top:0;
+z-index:1000;
+background: #FFFFFF;
+}
+#header nav{
+    flex:1;
+   
+}
+#header nav ul{
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    gap:30px;
+  
+    color: #1E3A8A;
+}
+.logo{
+    width:90px;
+    height:auto;
+}
+#header nav ul a{
+   text-decoration: none;
+    color:#1E3A8A;
+    font-size:clamp(1.3rem, 2.5vw, 1.3rem);
+    font-weight: bold;
+}
+#header .col-btn {
+text-decoration: none;
+
+font-size:clamp(1.3rem, 2.5vw, 1.3rem);
+    
+padding: 5px 16px;
+ border-radius: 8px;
+
+   background: #F59E0B;
+   color: white;
+   font-weight: bold;
+   border: none;
+    
+
+}
+#header .col-btn:hover{
+
+    cursor: pointer;  
+    background: #D97706;
+    box-shadow: 0 6px 15px rgba(245,158,11,.3);
+}
+
+/*////////////////////////////قســــــــــــــــــم الهيـــــــــــرو///////////////////////////////// */
+/* ================= HERO ================= */
+#hero{
+      background:
+        linear-gradient(
+            rgba(15, 23, 42, 0.60),
+            rgba(15, 23, 42, 0.60)
+        ),
+        url("images/home.jpg");
+         padding: 60px 20px;
+      text-align: center;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height:90vh; ;
+      scroll-margin-top: 150px;
+} 
+.hero-content{
+    max-width: 750px;
+    width: 100%;
+    z-index: 2;
+ 
+}
+.hero-tag{
+    display: inline-block;
+
+    padding: 10px 20px;
+
+    margin-bottom: 25px;
+
+    border-radius: 30px;
+
+    background-color: rgba(245, 158, 11, 0.20);
+
+    color: #FBBF24;
+
+    font-weight: bold;
+
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+}
+
+.hero-text h1{
+    font-size: clamp(2.5rem, 5vw, 4rem);
+
+    color: white;
+
+    line-height: 1.4;
+
+    margin-bottom: 25px;
+
+    font-weight: 800;
+}
+.hero-text p{
+    color: rgba(255,255,255,.90);
+
+    font-size:clamp(1.2rem, 2.5vw, 1.2rem);
+
+    line-height: 2;
+
+    margin-bottom: 40px;
+}
+.hero-buttons{
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+}
+.btn-book{
+    text-decoration: none;
+
+    background-color: #F59E0B;
+
+    color: white;
+
+    padding: 15px 35px;
+
+    border-radius: 12px;
+
+    font-weight: bold;
+
+    transition: 0.3s ease;
+}
+.btn-book:hover{
+    background-color: #D97706;
+
+    transform: translateY(-4px);
+}
+.btn-services{
+    text-decoration: none;
+
+    color: white;
+
+    border: 2px solid white;
+
+    padding: 15px 35px;
+
+    border-radius: 12px;
+
+    font-weight: bold;
+
+    transition: 0.3s ease;
+} 
+
+.btn-services:hover{
+    background-color: white;
+
+    color: #1E3A8A;
+
+    transform: translateY(-4px);
+}
+
+/*///////////////////////////////الخدمــــــــــــــــــات////////////////////////////// */
+
+
+#services{
+text-align: center;
+margin-bottom: 10px;
+scroll-margin-top: 100px;
+
+ padding: 10px 20px;
+}
+
+.contianer-services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,320px));
+
+justify-content:center;
+
+gap:30px;
+  
+
+
+}
+h2{
+  font-size:clamp(2.3rem, 4.5vw, 2.8rem);
+
+    color: #0F172A;
+    margin-bottom: 20px;
+
+    font-weight:bold;
+    
+}
+.contianer-services h3{
+    
+      
+      color: #334155;
+
+    font-size: 1rem;
+
+    line-height: 2;
+
+    margin-bottom: 20px;;
+
+    font-size:clamp(1.2rem, 2.5vw, 1.2rem);
+
+    margin-bottom: 50px;
+}
+.contianer-services p{
+
+color:#475569;
+
+    font-size:clamp(1rem, 2.5vw, 1.2rem);
+
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+}
+.services-box{
+  
+  width:100%;
+max-width:300px;
+padding: 20px 10px;
+min-height:320px;
+background-color:#F8FAFC;
+box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+transition:.3s ease;
+position: relative;
+overflow: hidden;
+display:flex;
+flex-direction:column;
+justify-content:flex-start;
+
+}
+.services-box:hover{
+transform:translateY(-12px);
+
+box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+.services-box::before{
+    content:"";
+
+    position:absolute;
+
+    top:0;
+    right:0;
+
+    width:100%;
+    height:5px;
+
+    background:#F59E0B;
+}
+
+    
+
+.icon-circle{
+  width:100%;
+max-width:80px;
+    height: 80px;
+
+    border-radius: 50%;
+
+ background:#EEF4FF;
+    border: 0.5px solid #334155;
+
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 15px auto;
+
+    transition: 0.3s ease;
+    
+
+}
+.icons{
+  width:100%;
+max-width:50px;
+   height: 50px;
+
+    color: #1E1B4B;
+
+    transition: 0.3s ease;
+}
+.services-box:hover .icon-circle{
+   background:#F59E0B;
+
+border-color:#F59E0B;
+
+transform:scale(1.08);
+}
+.services-box:hover .icons{
+
+color:white;
+
+
+
+}
+
+/*//////////////////////////////من نحــــــــــــــــن/////////////////////////////// */
+#about{
+display: flex;
+
+justify-content:space-around ;
+align-items: center;
+flex-wrap: wrap;
+margin-bottom: 20px;
+scroll-margin-top: 100px;
+padding:80px 40px;
+
+
+}
+.about-content{
+
+  max-width:50%;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 20px;
+  align-items:flex-start;
+}
+#about h2{
+    font-size:clamp(3rem, 5vw, 4rem);
+    color:#071952;
+    margin-bottom:20px;
+}
+.about-content p{
+     line-height: 2;
+    color: #555;
+    font-size:clamp(1.1rem, 2.5vw, 1.2rem);
+}
+
+.about-content ul{
+
+list-style-type: "✔ ";
+    color: rgb(4, 4, 82);
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+   column-gap: 50px;
+   row-gap: 25px;
+   flex-wrap: wrap;
+   
+padding-bottom: 20px;
+
+}
+.about-image::before{
+    content:"";
+    position:absolute;
+
+       max-width:340px;
+    height:340px;
+
+    background:#F59E0B;
+    opacity:.15;
+
+    border-radius:50%;
+
+    top:-35px;
+    right:40px;
+
+    z-index:-2;
+}
+.about-image{
+   position: relative;
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+.img-about{
+   
+      
+    max-width:450px;
+       width:100%;
+    border-radius:25px;
+
+   
+
+    position:relative;
+    z-index:1;
+}
+
+.img-about:hover{
+    transform:translateY(-8px);
+}
+.about-btn{
+    background:#F59E0B;
+    color:white;
+    text-decoration:none;
+
+    padding:15px 32px;
+
+    border-radius:12px;
+
+    font-size:clamp(1.1rem, 2.5vw, 1.2rem);
+    font-weight:bold;
+
+    transition:.3s;
+
+    width:fit-content;
+}
+
+.about-btn:hover{
+    background:#d88b09;
+    transform:translateY(-3px);
+}
+
+
+/*/////////////////////////////المـوقـــــــــــــع/////////////////////////////////////////////////////////////////////////////////////// */ 
+/*===================== الموقع =====================*/
+#location{
+    padding:100px 8%;
+     scroll-margin-top: 20px;
+}
+
+.location-card{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:60px;
+    background:#fff;
+    padding:50px;
+    border-radius:30px;
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+    flex-wrap:wrap;
+   
+}
+
+/*--------------- المعلومات ----------------*/
+.location-info{
+    flex:1;
+    min-width:350px;
+    width:100%;
+}
+
+.location-tag{
+    color:#F59E0B;
+    font-weight:700;
+    font-size:clamp(1.1rem, 2.5vw, 1.2rem);
+    margin-bottom:15px;
+}
+
+.location-info h2{
+    color:#071952;
+    font-size:clamp(2.7rem, 5vw, 3rem);
+    margin-bottom:20px;
+}
+
+.location-info p{
+    color:#666;
+    line-height:2;
+    font-size:clamp(1.05rem, 2.5vw, 1.2rem);
+}
+
+/* بطاقات المعلومات */
+.contact-item{
+    margin-top:18px;
+    background:#F8FAFC;
+    padding:18px 25px;
+    border-radius:18px;
+    color:#071952;
+    font-size:clamp(1.05rem, 2.5vw, 1.2rem);
+    box-shadow:0 4px 15px rgba(0,0,0,.04);
+    transition:.3s;
+}
+
+.contact-item:hover{
+    transform:translateY(-4px);
+}
+
+/*--------------- الأزرار ----------------*/
+.location-buttons{
+    display:flex;
+    gap:18px;
+    margin-top:35px;
+}
+
+.call-btn,
+.direction-btn{
+    padding:15px 32px;
+    border-radius:14px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.call-btn{
+    background:#F59E0B;
+    color:white;
+}
+
+.call-btn:hover{
+    background:#d88707;
+    transform:translateY(-3px);
+}
+
+.direction-btn{
+    border:2px solid #071952;
+    color:#071952;
+}
+
+.direction-btn:hover{
+    background:#071952;
+    color:white;
+    transform:translateY(-3px);
+}
+
+
+/*--------------- الخريطة ----------------*/
+.map-box{
+    flex:1;
+    min-width:400px;
+    width: 100%;
+}
+
+.map-box iframe{
+    width:100%;
+    height:430px;
+    border:none;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.4s;
+}
+
+.map-box iframe:hover{
+    transform:scale(1.02);
+}
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////// للتواصل //////////////////////////////////////////////// */
+/*==================== Contact ====================*/
+
+#contact{
+
+    padding:100px 8%;
+    background:#F8FAFC;
+
+}
+
+.section-title{
+
+    text-align:center;
+    margin-bottom:60px;
+
+}
+
+.section-title span{
+
+    color:#F59E0B;
+    font-weight:700;
+    font-size:clamp(1rem, 2.5vw, 1.2rem);
+
+}
+
+.section-title h2{
+
+    font-size:clamp(3rem, 5vw, 4rem);
+    color:#071952;
+    margin:15px 0;
+
+}
+
+.section-title p{
+
+    max-width:700px;
+    margin:auto;
+
+    line-height:1.9;
+    color:#666;
+
+}
+
+.contact-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:35px;
+
+}
+
+.contact-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:45px 35px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+}
+
+.contact-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+
+}
+
+.contact-icon{
+
+    max-width:80px;
+
+    height:80px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#FFF4DE;
+
+    color:#F59E0B;
+
+    font-size:2rem;
+
+    margin-bottom:25px;
+
+    transition:.4s;
+
+}
+
+.whatsapp{
+
+    background:#E8F9EF;
+
+    color:#25D366;
+
+}
+
+.contact-card:hover .contact-icon{
+
+    transform:scale(1.12) rotate(8deg);
+
+}
+
+.contact-card h3{
+
+    color:#071952;
+
+    font-size:clamp(1.5rem, 2.5vw, 1.7rem);
+
+    margin-bottom:15px;
+
+}
+
+.contact-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+    margin-bottom:20px;
+
+}
+
+.contact-card span{
+
+    display:block;
+
+    font-size:clamp(1.1rem, 2.5vw, 1.2rem);
+
+    color:#071952;
+
+    font-weight:bold;
+
+    margin-bottom:30px;
+
+}
+
+.contact-btn{
+
+    display:inline-block;
+
+    padding:14px 35px;
+
+    background:#F59E0B;
+
+    color:white;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.contact-btn:hover{
+
+    background:#071952;
+
+    transform:scale(1.05);
+
+}
+
+
+
+/*================ FOOTER ================*/
+
+#footer{
+
+    background:#071952;
+ 
+    color:#fff;
+
+    margin-top:80px;
+
+}
+
+.footer-container{
+
+    width:90%;
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:40px;
+
+    padding:60px 0;
+
+}
+
+.footer-logo{
+
+    max-width:130px;
+
+    margin-bottom:20px;
+
+}
+
+.footer-box p{
+
+    color:#d8d8d8;
+
+    line-height:1.9;
+
+    margin:12px 0;
+
+}
+
+.footer-box h3{
+
+    margin-bottom:20px;
+
+    font-size:1.4rem;
+
+    color:#fff;
+
+    position:relative;
+
+}
+
+.footer-box h3::after{
+
+    content:"";
+
+    width:55px;
+
+    height:3px;
+
+    background:#F59E0B;
+
+    position:absolute;
+
+    right:0;
+
+    bottom:-10px;
+
+    border-radius:5px;
+
+}
+
+.footer-box ul{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.footer-box ul li{
+
+    margin:15px 0;
+
+}
+
+.footer-box ul li a{
+
+    color:#d8d8d8;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.footer-box ul li a:hover{
+
+    color:#F59E0B;
+
+    padding-right:8px;
+
+}
+
+.footer-box i{
+
+    color:#F59E0B;
+
+    margin-left:10px;
+
+    font-size:18px;
+
+}
+
+/*================ SOCIAL ================*/
+
+.social-icons{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-top:20px;
+
+}
+
+.social-icons a{
+
+    width:45px;
+
+    height:45px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.08);
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.35s;
+
+}
+
+
+.social-icons a:hover{
+
+    background:#F59E0B;
+
+    transform:translateY(-6px);
+
+}
+.social-icons a i{
+
+    font-size:1.2rem;
+   
+
+}
+.social-icons a:hover i{
+
+    color:#fff;
+
+}
+
+/*================ BOTTOM ================*/
+
+.footer-bottom{
+
+    border-top:1px solid rgba(255,255,255,.1);
+
+    text-align:center;
+
+    padding:20px;
+
+    color:#cfcfcf;
+
+    font-size:.95rem;
+
+}
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////// تصميم متجاوب خاص للتابلت ///////////////////////////////////////////////////////////////*/
+
+/*================= Tablet =================*/
+
+@media (max-width:992px){
+
+#header{
+    padding:15px 25px;
+    gap:20px;
+}
+
+#header nav ul{
+    gap:18px;
+}
+
+.hero-text h1{
+    font-size:3rem;
+}
+
+#about{
+    flex-direction:column-reverse;
+    text-align:center;
+}
+
+.about-content{
+    max-width:100%;
+    align-items:center;
+}
+
+.about-content ul{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.location-card{
+    flex-direction:column;
+}
+
+.location-info,
+.map-box{
+    width:100%;
+    min-width:100%;
+}
+
+}
+
+
+/*////////////////////////////////////////////////////////////////// تصميم متجاوب خاص للهاتف ///////////////////////////////////////////////////////////////*/
+
+
+
+/*================= Mobile =================*/
+
+@media (max-width:768px){
+
+body{
+    font-size:1rem;
+}
+
+/* Header */
+
+#header{
+
+    flex-direction:column;
+
+    gap:20px;
+
+    padding:18px;
+
+}
+
+#header nav{
+
+    width:100%;
+
+}
+
+#header nav ul{
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+.logo{
+
+    width:75px;
+
+}
+
+/* Hero */
+
+#hero{
+
+    min-height:80vh;
+
+    padding:80px 20px;
+
+}
+
+.hero-text h1{
+
+    font-size:2.4rem;
+
+}
+
+.hero-text p{
+
+    font-size:1rem;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+    width:100%;
+
+}
+
+.hero-buttons a{
+
+    width:100%;
+
+}
+
+/* Services */
+
+.contianer-services{
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:25px;
+
+}
+
+.services-box{
+
+    width:100%;
+
+    max-width:380px;
+
+}
+
+/* About */
+
+#about{
+
+    padding:60px 20px;
+
+}
+
+.about-content{
+
+    max-width:100%;
+
+}
+
+.about-content ul{
+
+    grid-template-columns:1fr;
+
+    row-gap:15px;
+
+}
+
+.img-about{
+
+    width:100%;
+
+    max-width:350px;
+
+}
+
+.about-image::before{
+
+    width:240px;
+
+    height:240px;
+
+    right:50%;
+
+    transform:translateX(50%);
+
+}
+
+/* Location */
+
+#location{
+
+    padding:60px 20px;
+
+}
+
+.location-card{
+
+    padding:25px;
+
+}
+
+.location-info h2{
+
+    font-size:2rem;
+
+}
+
+.location-buttons{
+
+    flex-direction:column;
+
+}
+
+.call-btn,
+.direction-btn{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+.map-box iframe{
+
+    height:300px;
+
+}
+
+/* Contact */
+
+#contact{
+
+    padding:70px 20px;
+
+}
+
+.section-title h2{
+
+    font-size:2.2rem;
+
+}
+
+.contact-card{
+
+    padding:35px 25px;
+
+}
+
+/* Footer */
+
+.footer-container{
+
+    text-align:center;
+
+}
+
+.footer-box h3::after{
+
+    right:50%;
+
+    transform:translateX(50%);
+
+}
+
+.social-icons{
+
+    justify-content:center;
+
+}
+
+}
+
+
+
+/*================ Small Mobile ================*/
+
+@media (max-width:480px){
+
+.hero-text h1{
+
+    font-size:2rem;
+
+}
+
+.hero-tag{
+
+    font-size:.85rem;
+
+}
+
+.hero-text p{
+
+    font-size:.95rem;
+
+}
+
+h2{
+
+    font-size:1.8rem;
+
+}
+
+#about h2,
+.location-info h2,
+.section-title h2{
+
+    font-size:1.8rem;
+
+}
+
+.contact-icon{
+
+    width:65px;
+
+    height:65px;
+
+    font-size:1.6rem;
+
+}
+
+.footer-logo{
+
+    width:100px;
+
+}
+
+}
