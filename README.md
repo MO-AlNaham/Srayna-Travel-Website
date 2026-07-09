@@ -81,7 +81,7 @@ Optimized for:
 # 📸 Website Preview
 
 <p align="center">
-<img src="screenshots/preview.png" width="100%" alt="Srayna Travel Website Preview">
+  <img src="Preview.png" alt="Srayna Travel Website Preview" width="100%">
 </p>
 
 ---
