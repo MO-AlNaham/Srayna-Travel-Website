@@ -4,7 +4,7 @@
 
 ### Modern & Responsive Travel Agency Website
 
-A professional corporate website designed for **Srayna Travel & Tourism**.
+A modern corporate website developed for **Srayna Travel & Tourism** using HTML5 and CSS3.
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
@@ -17,38 +17,38 @@ A professional corporate website designed for **Srayna Travel & Tourism**.
 
 # 📖 About The Project
 
-Srayna Travel Website is a modern and fully responsive corporate website developed for **Srayna Travel & Tourism**.
+**Srayna Travel Website** is a modern and fully responsive corporate website designed for **Srayna Travel & Tourism**.
 
-The website introduces the company, showcases its travel services, displays the office location using Google Maps, and provides multiple communication methods including phone, WhatsApp, email, and social media.
+The website provides visitors with a clear overview of the company's travel services, introduces the business, displays the office location through Google Maps, and offers multiple communication channels including phone calls, WhatsApp, email, and social media.
 
-Its primary purpose is to give visitors a professional overview of the company and allow them to contact the office directly for bookings and travel inquiries.
-
----
-
-# 🌟 Features
-
-- ✅ Modern and clean UI
-- ✅ Fully Responsive Design
-- ✅ Travel Services Section
-- ✅ About Company Section
-- ✅ Office Location (Google Maps)
-- ✅ Contact Information
-- ✅ Click-to-Call Button
-- ✅ WhatsApp Contact
-- ✅ Email Contact
-- ✅ Social Media Links
-- ✅ Smooth Scrolling Navigation
-- ✅ Professional Card Layout
+The project focuses on delivering a clean user interface, responsive layouts, and a professional user experience across all screen sizes.
 
 ---
 
-# 🛠 Technologies Used
+# 🌟 Key Features
 
-| Technology | Purpose |
-|------------|---------|
+- Modern & Professional UI
+- Fully Responsive Layout
+- Smooth Scrolling Navigation
+- Travel Services Section
+- Company Introduction
+- Office Location (Google Maps)
+- Click-to-Call Support
+- WhatsApp Integration
+- Email Contact
+- Social Media Links
+- Professional Footer
+- Mobile Friendly Design
+
+---
+
+# 🛠 Built With
+
+| Technology | Description |
+|------------|-------------|
 | HTML5 | Website Structure |
-| CSS3 | Styling |
-| CSS Grid | Responsive Layout |
+| CSS3 | Styling & Layout |
+| CSS Grid | Responsive Cards |
 | Flexbox | Flexible Layout |
 | Google Fonts | Arabic Typography |
 | Font Awesome | Icons |
@@ -58,12 +58,12 @@ Its primary purpose is to give visitors a professional overview of the company a
 
 # 📱 Responsive Design
 
-The website has been optimized for:
+Optimized for:
 
 - 💻 Desktop
 - 🖥 Laptop
 - 📱 Mobile
-- 📲 Tablets
+- 📲 Tablet
 
 ---
 
@@ -80,52 +80,67 @@ The website has been optimized for:
 
 # 📸 Website Preview
 
-![Srayna Travel Website](images/Preview.png)
+<p align="center">
+<img src="screenshots/preview.png" width="100%" alt="Srayna Travel Website Preview">
+</p>
+
+---
+
+# 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/Mohammed123-collage/Srayna-Travel-Website.git
 ```
 
-After uploading images:
+Open the project
 
-```md
-![Home](images/home.png)
+```text
+index.html
+```
 
-![Services](images/services.png)
+No installation or dependencies are required.
 
-![About](images/about.png)
+---
 
-![Location](images/location.png)
+# 📁 Project Structure
 
-![Contact](images/contact.png)
+```text
+Srayna-Travel-Website
+│
+├── index.html
+├── styles.css
+├── screenshots
+│     └── preview.png
+├── images
+│     ├── hero.jpg
+│     ├── logo.png
+│     └── ...
+└── README.md
 ```
 
 ---
 
-# 🌐 Live Demo
-
-Coming Soon...
-
-(After publishing with GitHub Pages, replace this text with your website link.)
-
----
-
-# 🚀 Future Improvements
+# 🎯 Future Improvements
 
 - Booking Request Form
 - JavaScript Animations
 - Dark Mode
-- Multi-language Support
+- Multi-language Support (Arabic / English)
 - Online Booking System
-- Customer Reviews
-- Search Functionality
+- Customer Testimonials
+- FAQ Section
 
 ---
 
 # 👨‍💻 Developer
 
-**Mohammed S AL-Naham**
+**Mohammed S Al-Naham**
 
-Front-End Developer
+Front-End Web Developer
 
-GitHub:
+GitHub
 
 https://github.com/Mohammed123-collage
 
@@ -133,6 +148,14 @@ https://github.com/Mohammed123-collage
 
 # 📄 License
 
-This project is published for educational and portfolio purposes.
+This project is published for **portfolio and educational purposes only**.
 
-© 2025 Mohammed. All rights reserved.
+© 2025 Mohammed S Al-Naham. All rights reserved.
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, don't forget to give it a Star.
+
+</div>
