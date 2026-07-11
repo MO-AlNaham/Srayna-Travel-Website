@@ -88,7 +88,7 @@ Optimized for:
 
  # 🌐 Live Demo
 
-🔗 **[Visit the Website](https://mohammed123-collage.github.io/Srayna-Travel-Website/)**
+🔗 **[Visit the Website](https://mo-alnaham.github.io/Srayna-Travel-Website/)**
 
 ---
 # 🚀 Getting Started
